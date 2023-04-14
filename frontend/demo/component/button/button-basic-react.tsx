@@ -1,10 +1,19 @@
 // @ts-ignore
 import React from 'react';
+import { Button } from '@hilla/react-components/Button.js';
+import { IntegerField } from '@hilla/react-components/IntegerField.js';
+import { VerticalLayout } from '@hilla/react-components/VerticalLayout.js';
 
 export default function ReactExample() {
-    return (
-        <div>
-            <button>I am a Button rendered with React</button>
-        </div>
-    );
+  const [clickCount, setClickCount] = React.useState(0);
+
+  return (
+    <div>
+      <VerticalLayout>
+        <IntegerField label="Clicks" value={String(clickCount)} readonly></IntegerField>
+
+        <Button onClick={() => setClickCount(clickCount + 1)}>Click me</Button>
+      </VerticalLayout>
+    </div>
+  );
 }

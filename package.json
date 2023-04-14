@@ -10,6 +10,7 @@
     "@hilla/generator-typescript-plugin-model": "2.0.0",
     "@hilla/generator-typescript-plugin-push": "2.0.0",
     "@hilla/generator-typescript-utils": "2.0.0",
+    "@hilla/react-components": "2.0.2",
     "@polymer/polymer": "3.5.1",
     "@vaadin/accordion": "24.0.0",
     "@vaadin/app-layout": "24.0.0",
@@ -222,6 +223,7 @@
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
     "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
+    "@hilla/react-components": "$@hilla/react-components",
     "@vaadin/overlay": "$@vaadin/overlay",
     "react": "$react",
     "react-dom": "$react-dom"
