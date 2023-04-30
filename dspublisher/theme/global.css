@@ -301,3 +301,8 @@ li.experimental:not([class*=active]) > [class*=title] a::after {
   color: var(--violet-100);
   background-color: var(--violet-900);
 }
+
+/* For rendered examples, hide the last source tab (react example import) */
+.code-example [data-has-example="true"] ~ .source .sources button:last-child {
+  display: none;
+}

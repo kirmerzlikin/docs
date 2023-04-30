@@ -10,10 +10,17 @@ description: The Button component allows the user to perform actions.
 [.example]
 --
 
-[source,html]
+
+[source,jsx]
 ----
-include::{root}/frontend/demo/component/button/button-basic.ts[render,tags=snippet,indent=0,group=React]
+include::{root}/frontend/demo/component/button/button-basic.tsx[group=React,tags=snippet,indent=0,tags=snippet]
 ----
+
+[source,js]
+----
+include::{root}/frontend/demo/component/button/button-basic-import.ts[render,tags=snippet,indent=0,group=React]
+----
+
 
 --
 

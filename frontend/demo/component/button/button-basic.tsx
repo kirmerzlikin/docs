@@ -1,4 +1,3 @@
-// @ts-ignore
 import React from 'react';
 import { Button } from '@hilla/react-components/Button.js';
 import { IntegerField } from '@hilla/react-components/IntegerField.js';
@@ -9,11 +8,13 @@ export default function ReactExample() {
 
   return (
     <div>
+      {/* tag::snippet[] */}
       <VerticalLayout>
         <IntegerField label="Clicks" value={String(clickCount)} readonly></IntegerField>
 
         <Button onClick={() => setClickCount(clickCount + 1)}>Click me</Button>
       </VerticalLayout>
+      {/* end::snippet[] */}
     </div>
   );
 }
